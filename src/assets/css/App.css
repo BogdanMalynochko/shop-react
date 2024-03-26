@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Headings */
+
+h1 {
+    @apply text-5xl text-center py-10 font-semibold;
+}
+
+h5 {
+    @apply text-xl font-semibold tracking-tight text-white;
+}
+
+/* Buttons */
+
+.btn {
+    @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+}
+
+/* Product Cards */
+
+.product--card {
+    @apply w-full flex flex-col justify-between bg-gray-700 rounded-xl shadow-xl duration-300 hover:scale-[1.02] hover:duration-300 hover:cursor-pointer;
+}
+
+.cart-product--card {
+    @apply flex justify-between items-center rounded-xl border shadow-xl duration-300 hover:scale-[1.02] hover:duration-300 hover:cursor-pointer;
+}
+
+input {
+    @apply px-5 border text-center;
+}
